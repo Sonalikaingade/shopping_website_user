@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+    <ul id="navbar" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="Register.html">Register</a></li>
+        <li><a href="admin.html">Admin</a></li>
+        <li><a href="contact_us.html">Contact us</a></li>
+        <a href="#" id="close"><i class="fas fa-times "></i></a>
+
+    </ul>
+</div>
+
+<div class="mobile">
+  <i id="bar" class="fas fa-bars"></i>
+</div>
+
+</section>
+
+
+
+    <section class="form">
+
+    
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">First Name</span>
+                <input type="text" placeholder="Enter your First name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Last Name</span>
+                <input type="text" placeholder="Enter your Last name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Date of birth</span>
+                <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" required>
+              </div>
+              <div class="input-box">
+                <span class="details"> Password</span>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="password" placeholder="Confirm your password" required>
+              </div>
+            </div>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1" required>
+              <input type="radio" name="gender" id="dot-2" required>
+              <input type="radio" name="gender" id="dot-3" required>
+              <span class="gender-title">Gender</span>
+              <div class="category">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+                </label>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+ 
+    
+</body>
+</html>
